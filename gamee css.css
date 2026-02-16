@@ -1,0 +1,25 @@
+.player {
+    width: 100px;
+    height: 100px;
+     display: block;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  
+
+}
+body {
+    background-image: url("https://github.com/munez2029/game/blob/main/map222.png?raw=true");
+    background-repeat: no-repeat;
+    background-position: center center;
+  background-attachment: fixed;  
+}
+#gameCanvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none; 
+    z-index: 999;
+}

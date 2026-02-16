@@ -1,0 +1,41 @@
+.image {
+    width: 400px;
+    height: 225px;
+   display: block;
+  position: absolute;
+  
+  left: 35%;
+  
+}
+body {
+    background-color: bisque;
+}
+
+
+
+.yes{
+     display: block;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+ 
+    margin-top: 100px;
+     width: 400px;
+    height: 225px;
+}
+.play{
+    display: block;
+  position: absolute;
+  top: 50%;
+    left: 35%;
+     width: 400px;
+    height: 225px;
+}
+.play:hover {
+    
+    transform: scale(1.1); 
+}
+.yes:hover {
+    
+    transform: scale(1.1); 
+}
